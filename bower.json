@@ -1,0 +1,29 @@
+{
+  "name": "uhura-i18n",
+  "version": "0.0.1",
+  "authors": [
+    "Duke <dukekhaos@gmail.com>"
+  ],
+  "description": "Uhura App Translate package",
+  "main": "i18n.js",
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals"
+  ],
+  "keywords": [
+    "i18n",
+    "translate",
+    "uhuraapp"
+  ],
+  "license": "MIT",
+  "homepage": "http://uhuraapp.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
