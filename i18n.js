@@ -4,13 +4,23 @@ import EN from 'lang/en';
 var __bind = function(fn, me){ return function(){ return fn.apply(me, arguments); }; }
 
 var I18n = (function() {
+  I18n.prototype.languages = {
+    "PT": PT,
+    "EN": EN
+  };
+
+  I18n.prototype.defaultLanguage = "EN";
+
   function I18n() {
-    this.languages = {
-      "PT": PT,
-      "EN": EN
-    }
-    this.currentLanguage = "PT";
     this.t = __bind(this.t, this)
+    this.checkAndSetCurrentLanguage();
+  }
+
+  I18n.prototype.checkAndSetCurrentLanguage = function () {
+    this.currentLanguage = localStorage.getItem("lang");
+    if(!this.currentLanguage || this.languages[this.currentLanguage] == null) {
+      this.currentLanguage = this.defaultLanguage;
+    }
   }
 
   I18n.prototype.getCurrentLanguage = function() {
