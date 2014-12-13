@@ -16,6 +16,9 @@ export default {
   'sidebar.sign_out': 'Sair',
 
   // TITLES
-  'titles.episodes': 'Episódios'
+  'titles.episodes': 'Episódios',
+
+  // VIEWS
+  'views.channel.mark_all_as_listened': "Marcar tudo como ouvido"
 };
 
