@@ -1,16 +1,8 @@
 {
   "name": "uhura-i18n",
   "version": "0.0.1",
-  "authors": [
-    "Duke <dukekhaos@gmail.com>"
-  ],
   "description": "Uhura App Translate package",
-  "main": "i18n.js",
-  "moduleType": [
-    "amd",
-    "es6",
-    "globals"
-  ],
+  "main": "dist/i18n.js",
   "keywords": [
     "i18n",
     "translate",
