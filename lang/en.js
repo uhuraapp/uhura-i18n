@@ -9,14 +9,17 @@ export default {
     'components.subscribe_button.subscribe': 'Subscribe!',
 
   // SIDEBAR
-  'sidebar.channel_add': 'Find Channels',
+  'sidebar.channels': 'Channels',
   'sidebar.donate': 'Make a donate',
   'sidebar.home': 'Home',
   'sidebar.settings': 'Settings',
-  'sidebar.sign_out': 'Logout',
+  'sidebar.sign_in': 'Sign in',
+  'sidebar.sign_out': 'Sign Out',
 
   // TITLES
   'titles.episodes': 'Episodes',
+  'titles.suggestions': 'Suggestions',
+  'titles.welcome': 'Welcome to Uhura',
 
   // VIEWS
   'views.channel.mark_all_as_listened': "Mark All as Listened"

@@ -17,14 +17,17 @@ define("lang/en", ["exports"], function(__exports__) {
       'components.subscribe_button.subscribe': 'Subscribe!',
 
     // SIDEBAR
-    'sidebar.channel_add': 'Find Channels',
+    'sidebar.channels': 'Channels',
     'sidebar.donate': 'Make a donate',
     'sidebar.home': 'Home',
     'sidebar.settings': 'Settings',
-    'sidebar.sign_out': 'Logout',
+    'sidebar.sign_in': 'Sign in',
+    'sidebar.sign_out': 'Sign Out',
 
     // TITLES
     'titles.episodes': 'Episodes',
+    'titles.suggestions': 'Suggestions',
+    'titles.welcome': 'Welcome to Uhura',
 
     // VIEWS
     'views.channel.mark_all_as_listened': "Mark All as Listened"
@@ -116,10 +119,13 @@ define("lang/pt", ["exports"], function(__exports__) {
     'sidebar.donate': 'Faça uma doação',
     'sidebar.home': 'Inicio',
     'sidebar.settings': 'Configurações',
+    'sidebar.sign_in': 'Entrar',
     'sidebar.sign_out': 'Sair',
 
     // TITLES
     'titles.episodes': 'Episódios',
+    'titles.suggestions': 'Sugestões',
+    'titles.welcome': 'Bem-vindo ao Uhura',
 
     // VIEWS
     'views.channel.mark_all_as_listened': "Marcar tudo como ouvido"

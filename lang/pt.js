@@ -13,10 +13,13 @@ export default {
   'sidebar.donate': 'Faça uma doação',
   'sidebar.home': 'Inicio',
   'sidebar.settings': 'Configurações',
+  'sidebar.sign_in': 'Entrar',
   'sidebar.sign_out': 'Sair',
 
   // TITLES
   'titles.episodes': 'Episódios',
+  'titles.suggestions': 'Sugestões',
+  'titles.welcome': 'Bem-vindo ao Uhura',
 
   // VIEWS
   'views.channel.mark_all_as_listened': "Marcar tudo como ouvido"
