@@ -8,8 +8,11 @@ export default {
     // SUBSCRIBE-BUTTON
     'components.subscribe_button.subscribe': 'Assinar!',
 
+  // MESSAGES
+    'messages.reload_settings': "Suas configurações mudaram, você deseja recarregar a pagina?",
+
   // SIDEBAR
-  'sidebar.channel_add': 'Buscar Canais',
+  'sidebar.channels': 'Canais',
   'sidebar.donate': 'Faça uma doação',
   'sidebar.home': 'Inicio',
   'sidebar.settings': 'Configurações',
@@ -20,6 +23,7 @@ export default {
   'titles.episodes': 'Episódios',
   'titles.suggestions': 'Sugestões',
   'titles.welcome': 'Bem-vindo ao Uhura',
+  'titles.settings': 'Configurações',
 
   // VIEWS
   'views.channel.mark_all_as_listened': "Marcar tudo como ouvido"

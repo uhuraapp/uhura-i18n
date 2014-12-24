@@ -16,6 +16,9 @@ define("lang/en", ["exports"], function(__exports__) {
       // SUBSCRIBE-BUTTON
       'components.subscribe_button.subscribe': 'Subscribe!',
 
+    // MESSAGES
+    'messages.reload_settings': "Your settings changes, do you want reload page?",
+
     // SIDEBAR
     'sidebar.channels': 'Channels',
     'sidebar.donate': 'Make a donate',
@@ -28,6 +31,7 @@ define("lang/en", ["exports"], function(__exports__) {
     'titles.episodes': 'Episodes',
     'titles.suggestions': 'Suggestions',
     'titles.welcome': 'Welcome to Uhura',
+    'titles.settings': 'Settings',
 
     // VIEWS
     'views.channel.mark_all_as_listened': "Mark All as Listened"
@@ -54,10 +58,15 @@ define(
     var __bind = function(fn, me){ return function(){ return fn.apply(me, arguments); }; }
 
     var I18n = (function() {
-      I18n.prototype.languages = {
+      I18n.prototype.__languages__ = {
         "PT": PT,
         "EN": EN
       };
+
+      I18n.prototype.languages = [
+        {key: "PT", name: "Português"},
+        {key: "EN", name: "English"}
+      ]
 
       I18n.prototype.defaultLanguage = "EN";
 
@@ -68,13 +77,13 @@ define(
 
       I18n.prototype.checkAndSetCurrentLanguage = function () {
         this.currentLanguage = localStorage.getItem("lang");
-        if(!this.currentLanguage || this.languages[this.currentLanguage] == null) {
+        if(!this.currentLanguage || this.__languages__[this.currentLanguage] == null) {
           this.currentLanguage = this.defaultLanguage;
         }
       }
 
       I18n.prototype.getCurrentLanguage = function() {
-        return this.languages[this.currentLanguage];
+        return this.__languages__[this.currentLanguage];
       }
 
       I18n.prototype.t = function(key) {
@@ -86,6 +95,11 @@ define(
         if (!t) return "Please translate `"+key+"` key to " + this.currentLanguage
         return t;
       };
+
+      I18n.prototype.setLang = function(key) {
+        localStorage.setItem("lang", key);
+        this.getCurrentLanguage();
+      }
 
       return I18n;
 
@@ -114,8 +128,11 @@ define("lang/pt", ["exports"], function(__exports__) {
       // SUBSCRIBE-BUTTON
       'components.subscribe_button.subscribe': 'Assinar!',
 
+    // MESSAGES
+      'messages.reload_settings': "Suas configurações mudaram, você deseja recarregar a pagina?",
+
     // SIDEBAR
-    'sidebar.channel_add': 'Buscar Canais',
+    'sidebar.channels': 'Canais',
     'sidebar.donate': 'Faça uma doação',
     'sidebar.home': 'Inicio',
     'sidebar.settings': 'Configurações',
@@ -126,6 +143,7 @@ define("lang/pt", ["exports"], function(__exports__) {
     'titles.episodes': 'Episódios',
     'titles.suggestions': 'Sugestões',
     'titles.welcome': 'Bem-vindo ao Uhura',
+    'titles.settings': 'Configurações',
 
     // VIEWS
     'views.channel.mark_all_as_listened': "Marcar tudo como ouvido"

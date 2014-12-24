@@ -8,6 +8,9 @@ export default {
     // SUBSCRIBE-BUTTON
     'components.subscribe_button.subscribe': 'Subscribe!',
 
+  // MESSAGES
+  'messages.reload_settings': "Your settings changes, do you want reload page?",
+
   // SIDEBAR
   'sidebar.channels': 'Channels',
   'sidebar.donate': 'Make a donate',
@@ -20,6 +23,7 @@ export default {
   'titles.episodes': 'Episodes',
   'titles.suggestions': 'Suggestions',
   'titles.welcome': 'Welcome to Uhura',
+  'titles.settings': 'Settings',
 
   // VIEWS
   'views.channel.mark_all_as_listened': "Mark All as Listened"
