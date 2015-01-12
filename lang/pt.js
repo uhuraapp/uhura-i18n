@@ -7,6 +7,7 @@ export default {
 
     // SUBSCRIBE-BUTTON
     'components.subscribe_button.subscribe': 'Assinar!',
+    'components.subscribe_button.subscribed': 'Assinado',
 
   // MESSAGES
     'messages.reload_settings': "Suas configurações mudaram, você deseja recarregar a pagina?",

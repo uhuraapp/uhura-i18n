@@ -15,6 +15,7 @@ define("lang/en", ["exports"], function(__exports__) {
 
       // SUBSCRIBE-BUTTON
       'components.subscribe_button.subscribe': 'Subscribe!',
+      'components.subscribe_button.subscribed': 'Subscribed',
 
     // MESSAGES
     'messages.reload_settings': "Your settings changes, do you want reload page?",
@@ -127,6 +128,7 @@ define("lang/pt", ["exports"], function(__exports__) {
 
       // SUBSCRIBE-BUTTON
       'components.subscribe_button.subscribe': 'Assinar!',
+      'components.subscribe_button.subscribed': 'Assinado',
 
     // MESSAGES
       'messages.reload_settings': "Suas configurações mudaram, você deseja recarregar a pagina?",

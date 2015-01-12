@@ -7,6 +7,7 @@ export default {
 
     // SUBSCRIBE-BUTTON
     'components.subscribe_button.subscribe': 'Subscribe!',
+    'components.subscribe_button.subscribed': 'Subscribed',
 
   // MESSAGES
   'messages.reload_settings': "Your settings changes, do you want reload page?",
