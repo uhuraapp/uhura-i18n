@@ -25,6 +25,7 @@ export default {
   'titles.suggestions': 'Sugestões',
   'titles.welcome': 'Bem-vindo ao Uhura',
   'titles.settings': 'Configurações',
+  'titles.category': 'Categoria',
 
   // VIEWS
   'views.channel.mark_all_as_listened': "Marcar tudo como ouvido"

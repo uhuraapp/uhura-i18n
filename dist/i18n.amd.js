@@ -33,6 +33,7 @@ define("lang/en", ["exports"], function(__exports__) {
     'titles.suggestions': 'Suggestions',
     'titles.welcome': 'Welcome to Uhura',
     'titles.settings': 'Settings',
+    'titles.category': 'Category',
 
     // VIEWS
     'views.channel.mark_all_as_listened': "Mark All as Listened"
@@ -146,6 +147,7 @@ define("lang/pt", ["exports"], function(__exports__) {
     'titles.suggestions': 'Sugestões',
     'titles.welcome': 'Bem-vindo ao Uhura',
     'titles.settings': 'Configurações',
+    'titles.category': 'Categoria',
 
     // VIEWS
     'views.channel.mark_all_as_listened': "Marcar tudo como ouvido"
