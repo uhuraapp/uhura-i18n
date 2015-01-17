@@ -9,6 +9,9 @@ export default {
     'components.subscribe_button.subscribe': 'Assinar!',
     'components.subscribe_button.subscribed': 'Assinado',
 
+  // ERRORS
+    'errors.login': "Ocorreu um erro, por favor tente novamente!",
+
   // MESSAGES
     'messages.reload_settings': "Suas configurações mudaram, você deseja recarregar a pagina?",
 

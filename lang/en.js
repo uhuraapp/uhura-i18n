@@ -9,6 +9,9 @@ export default {
     'components.subscribe_button.subscribe': 'Subscribe!',
     'components.subscribe_button.subscribed': 'Subscribed',
 
+  // ERRORS
+  'errors.login': "Login error, please try again!",
+
   // MESSAGES
   'messages.reload_settings': "Your settings changes, do you want reload page?",
 
