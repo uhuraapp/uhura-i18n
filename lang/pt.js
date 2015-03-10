@@ -31,6 +31,7 @@ export default {
   'titles.categories': 'Categorias',
 
   // VIEWS
-  'views.channel.mark_all_as_listened': "Marcar tudo como ouvido"
+  'views.channel.mark_all_as_listened': "Marcar tudo como escutado",
+  'views.channel.remove_listened': "Remover Escutados"
 };
 

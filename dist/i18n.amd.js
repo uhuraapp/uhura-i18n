@@ -39,7 +39,8 @@ define("lang/en", ["exports"], function(__exports__) {
     'titles.categories': 'Categories',
 
     // VIEWS
-    'views.channel.mark_all_as_listened': "Mark All as Listened"
+    'views.channel.mark_all_as_listened': "Mark All as Listened",
+    'views.channel.remove_listened': "Remove Listened"
   });
 });
 
@@ -156,7 +157,8 @@ define("lang/pt", ["exports"], function(__exports__) {
     'titles.categories': 'Categorias',
 
     // VIEWS
-    'views.channel.mark_all_as_listened': "Marcar tudo como ouvido"
+    'views.channel.mark_all_as_listened': "Marcar tudo como escutado",
+    'views.channel.remove_listened': "Remover Escutados"
   });
 });
 
