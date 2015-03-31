@@ -9,19 +9,19 @@ define("lang/en", ["exports"], function(__exports__) {
   __es6_export__("default", {
     // COMPONENTS
       // EPISODE-LIST-ITEM
-      'components.episode_list_item.play': "Play",
-      'components.episode_list_item.pause': "Pause",
-      'components.episode_list_item.info': "Info",
+      'components.episode_list_item.play': 'Play',
+      'components.episode_list_item.pause': 'Pause',
+      'components.episode_list_item.info': 'Info',
 
       // SUBSCRIBE-BUTTON
       'components.subscribe_button.subscribe': 'Subscribe!',
       'components.subscribe_button.subscribed': 'Subscribed',
 
     // ERRORS
-    'errors.login': "Login error, please try again!",
+    'errors.login': 'Login error, please try again!',
 
     // MESSAGES
-    'messages.reload_settings': "Your settings changes, do you want reload page?",
+    'messages.reload_settings': 'Your settings changes, do you want reload page?',
 
     // SIDEBAR
     'sidebar.channels': 'Channels',
@@ -39,8 +39,9 @@ define("lang/en", ["exports"], function(__exports__) {
     'titles.categories': 'Categories',
 
     // VIEWS
-    'views.channel.mark_all_as_listened': "Mark All as Listened",
-    'views.channel.remove_listened': "Remove Listened"
+    'views.channel.mark_all_as_listened': 'Mark All as Listened',
+    'views.channel.remove_listened': 'Remove Listened',
+    'views.channel.episodes_not_found': 'All episodes have been marked as listened or this channel has not yet episodes'
   });
 });
 
@@ -127,19 +128,19 @@ define("lang/pt", ["exports"], function(__exports__) {
   __es6_export__("default", {
     // COMPONENTS
       // EPISODE-LIST-ITEM
-      'components.episode_list_item.play': "Tocar",
-      'components.episode_list_item.pause': "Pausar",
-      'components.episode_list_item.info': "Info",
+      'components.episode_list_item.play': 'Tocar',
+      'components.episode_list_item.pause': 'Pausar',
+      'components.episode_list_item.info': 'Info',
 
       // SUBSCRIBE-BUTTON
       'components.subscribe_button.subscribe': 'Assinar!',
       'components.subscribe_button.subscribed': 'Assinado',
 
     // ERRORS
-      'errors.login': "Ocorreu um erro, por favor tente novamente!",
+      'errors.login': 'Ocorreu um erro, por favor tente novamente!',
 
     // MESSAGES
-      'messages.reload_settings': "Suas configurações mudaram, você deseja recarregar a pagina?",
+      'messages.reload_settings': 'Suas configurações mudaram, você deseja recarregar a pagina?',
 
     // SIDEBAR
     'sidebar.channels': 'Canais',
@@ -157,8 +158,9 @@ define("lang/pt", ["exports"], function(__exports__) {
     'titles.categories': 'Categorias',
 
     // VIEWS
-    'views.channel.mark_all_as_listened': "Marcar tudo como escutado",
-    'views.channel.remove_listened': "Remover Escutados"
+    'views.channel.mark_all_as_listened': 'Marcar tudo como escutado',
+    'views.channel.remove_listened': 'Remover Escutados',
+    'views.channel.episodes_not_found': 'Todos os episódios já foram marcados como escutado ou este canal não tem episódios ainda'
   });
 });
 

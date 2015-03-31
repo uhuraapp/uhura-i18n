@@ -1,19 +1,19 @@
 export default {
   // COMPONENTS
     // EPISODE-LIST-ITEM
-    'components.episode_list_item.play': "Play",
-    'components.episode_list_item.pause': "Pause",
-    'components.episode_list_item.info': "Info",
+    'components.episode_list_item.play': 'Play',
+    'components.episode_list_item.pause': 'Pause',
+    'components.episode_list_item.info': 'Info',
 
     // SUBSCRIBE-BUTTON
     'components.subscribe_button.subscribe': 'Subscribe!',
     'components.subscribe_button.subscribed': 'Subscribed',
 
   // ERRORS
-  'errors.login': "Login error, please try again!",
+  'errors.login': 'Login error, please try again!',
 
   // MESSAGES
-  'messages.reload_settings': "Your settings changes, do you want reload page?",
+  'messages.reload_settings': 'Your settings changes, do you want reload page?',
 
   // SIDEBAR
   'sidebar.channels': 'Channels',
@@ -31,7 +31,8 @@ export default {
   'titles.categories': 'Categories',
 
   // VIEWS
-  'views.channel.mark_all_as_listened': "Mark All as Listened",
-  'views.channel.remove_listened': "Remove Listened"
+  'views.channel.mark_all_as_listened': 'Mark All as Listened',
+  'views.channel.remove_listened': 'Remove Listened',
+  'views.channel.episodes_not_found': 'All episodes have been marked as listened or this channel has not yet episodes'
 };
 
