@@ -18,6 +18,7 @@ export default {
   // SIDEBAR
   'sidebar.channels': 'Canais',
   'sidebar.donate': 'Faça uma doação',
+  'sidebar.explore': 'Explore',
   'sidebar.home': 'Inicio',
   'sidebar.settings': 'Configurações',
   'sidebar.sign_in': 'Entrar',
@@ -35,4 +36,3 @@ export default {
   'views.channel.remove_listened': 'Remover Escutados',
   'views.channel.episodes_not_found': 'Todos os episódios já foram marcados como escutado ou este canal não tem episódios ainda'
 };
-

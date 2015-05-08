@@ -26,6 +26,7 @@ define("lang/en", ["exports"], function(__exports__) {
     // SIDEBAR
     'sidebar.channels': 'Channels',
     'sidebar.donate': 'Make a donate',
+    'sidebar.explore': 'Explore',
     'sidebar.home': 'Home',
     'sidebar.settings': 'Settings',
     'sidebar.sign_in': 'Sign in',
@@ -145,6 +146,7 @@ define("lang/pt", ["exports"], function(__exports__) {
     // SIDEBAR
     'sidebar.channels': 'Canais',
     'sidebar.donate': 'Faça uma doação',
+    'sidebar.explore': 'Explore',
     'sidebar.home': 'Inicio',
     'sidebar.settings': 'Configurações',
     'sidebar.sign_in': 'Entrar',
