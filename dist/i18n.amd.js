@@ -31,6 +31,7 @@ define("lang/en", ["exports"], function(__exports__) {
     'sidebar.settings': 'Settings',
     'sidebar.sign_in': 'Sign in',
     'sidebar.sign_out': 'Sign Out',
+    'sidebar.subscriptions': 'Subscriptions',
 
     // TITLES
     'titles.episodes': 'Episodes',
@@ -151,6 +152,7 @@ define("lang/pt", ["exports"], function(__exports__) {
     'sidebar.settings': 'Configurações',
     'sidebar.sign_in': 'Entrar',
     'sidebar.sign_out': 'Sair',
+    'sidebar.subscriptions': 'Assinaturas',
 
     // TITLES
     'titles.episodes': 'Episódios',

@@ -23,6 +23,7 @@ export default {
   'sidebar.settings': 'Settings',
   'sidebar.sign_in': 'Sign in',
   'sidebar.sign_out': 'Sign Out',
+  'sidebar.subscriptions': 'Subscriptions',
 
   // TITLES
   'titles.episodes': 'Episodes',

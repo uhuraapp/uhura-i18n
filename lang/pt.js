@@ -23,6 +23,7 @@ export default {
   'sidebar.settings': 'Configurações',
   'sidebar.sign_in': 'Entrar',
   'sidebar.sign_out': 'Sair',
+  'sidebar.subscriptions': 'Assinaturas',
 
   // TITLES
   'titles.episodes': 'Episódios',
